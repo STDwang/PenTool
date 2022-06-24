@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\mat">
+      <UniqueIdentifier>{70a9a05e-e15f-467b-b0b5-ec654441fcc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pentoolsever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pentoolsql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pentoolwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sever-sql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sever-ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sever-work.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql-mb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql-project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql-sates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\work-task1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\work-task4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\work-task2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\work-task3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\work-creMb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\work-creSate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qmlplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\fft1.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\rt_nonfinite.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\rtGetInf.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\rtGetNaN.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\test.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\test_emxAPI.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\test_emxutil.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\test_initialize.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\test_terminate.cpp">
+      <Filter>Source Files\mat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pentooldatatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="src\pentoolsever.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\pentoolsql.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\pentoolwork.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="src\comfution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mathfution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lincesecreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="themes\Dark\.DS_Store">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\.DS_Store">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\home\CardLogin.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\home\CardProject.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\ChoiceSlidingBarMb.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\ChoiceSlidingBarProject.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\ChoiceSlidingBarSate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\mbView\EditMbDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\projectView\EditProjectDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\sateView\EditSateDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\config\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\mbView\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\projectView\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\sateView\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\help\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\home\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\play\Index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\Loading.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\mbView\MbTable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\Menubar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\Msgconsole.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\mbView\NewMbDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\projectView\NewProjectDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\home\NewProjectDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\sateView\NewSateDia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\PenComboBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\projectView\ProjectTable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\data\sateView\SateTable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\SearchTimeAtt.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TAvatar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TAvatar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TAwesomeIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TAwesomeIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TBadge.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TBadge.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TBusyIndicator.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TBusyIndicator.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TCarousel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TCarousel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TCheckBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TCheckBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TDialog.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TDialog.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TDividerLine.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TDividerLine.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TIconButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TIconButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TImage.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TImage.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TImageButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TImageButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TInputField.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TInputField.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TLabel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TLabel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TNavigationBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TNavigationBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TPagination.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TPagination.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TPopover.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TPopover.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TPopoverMenu.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TPopoverMenu.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TProgressBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TProgressBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TRadioBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TRadioBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TRectangle.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TRectangle.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TSVGIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TSVGIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TSwitch.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TSwitch.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TTag.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TTag.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TToast.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TToast.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\common\Topbar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\home\TopbarHome.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg\close.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\jpg\earth.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg\hide.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gif\homeVideo.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\awesome\index.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\main.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\main.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg\max.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\mb(1).png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\mb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg\min.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\newmbmap.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\project(1).png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\project.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="qtquickcontrols2.conf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\sate(1).png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\sate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\view\play\NoProjectErrorIndex.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bin\Toou2D\plugin.qmltypes">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\qwebchannel.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="doc\PenTool.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="doc\README.html">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myapp-T2d.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\qmlplot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\websockettransport.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
