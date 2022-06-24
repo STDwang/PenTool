@@ -38,6 +38,15 @@
     <Filter Include="Source Files\mat">
       <UniqueIdentifier>{70a9a05e-e15f-467b-b0b5-ec654441fcc2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\bin">
+      <UniqueIdentifier>{d5fb8dee-b452-4419-a308-7c8eeaddf3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bin\qcustomplot">
+      <UniqueIdentifier>{892c49d4-4379-4144-8e70-35ef211345d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bin\mat">
+      <UniqueIdentifier>{6a31a790-1117-4785-aece-52b6a979356f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -91,9 +100,6 @@
     <ClCompile Include="src\qmlplot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="bin\mat\fft1.cpp">
       <Filter>Source Files\mat</Filter>
     </ClCompile>
@@ -121,6 +127,9 @@
     <ClCompile Include="bin\mat\test_terminate.cpp">
       <Filter>Source Files\mat</Filter>
     </ClCompile>
+    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp">
+      <Filter>Header Files\bin\qcustomplot</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\pentooldatatype.h">
@@ -146,6 +155,42 @@
     </ClInclude>
     <ClInclude Include="src\lincesecreator.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\fft1.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\rt_nonfinite.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\rtGetInf.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\rtGetNaN.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\rtwtypes.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\test.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\test_emxAPI.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\test_emxutil.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\test_initialize.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\test_terminate.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\test_types.h">
+      <Filter>Header Files\bin\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\tmwtypes.h">
+      <Filter>Header Files\bin\mat</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -486,14 +531,14 @@
     <ResourceCompile Include="myapp-T2d.rc" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="src\qmlplot.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\websockettransport.h">
       <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
+      <Filter>Header Files\bin\qcustomplot</Filter>
     </QtMoc>
   </ItemGroup>
 </Project>
