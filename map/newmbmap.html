@@ -432,6 +432,8 @@
     // 设置时钟当前时间
     viewer.clock.currentTime = start.clone();
 
+    var pinBuilder=new bmgl.PinBuilder();
+
     function computeFlight(source) {
         var property = new bmgl.SampledPositionProperty();
         for (var i = 0; i < source.length; i++) {
@@ -493,6 +495,12 @@
                             stop: stop
                         })]),
                         position: property,
+                        label: {
+                                    scale:1,
+                                    heightReference:bmgl.HeightReference.CLAMP_TO_GROUND,
+                                    fillColor:bmgl.Color.BLUE,
+                                    text: name,
+                                },
                         // 根据所提供的速度计算点
                         orientation: new bmgl.VelocityOrientationProperty(property),
                         // 模型数据
@@ -563,6 +571,12 @@
                             stop: stop
                         })]),
                         position: property,
+                        label: {
+                                    scale:0.5,
+                                    heightReference:bmgl.HeightReference.CLAMP_TO_GROUND,
+                                    fillColor:bmgl.Color.BLUE,
+                                    text: name,
+                                },
                         // 根据所提供的速度计算点
                         orientation: new bmgl.VelocityOrientationProperty(property),
                         // 模型数据

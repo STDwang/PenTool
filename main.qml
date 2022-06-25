@@ -359,7 +359,7 @@ Window {
                 }
                 mb.push(temp);
             }
-            mapObject.mbPlay(data["name"] + data["mbId"], mb, data["time"][data["time"].length-1] / 10);
+            mapObject.mbPlay(data["name"], mb, data["time"][data["time"].length-1] / 10);
             global.mbTrails[data["name"] + data["mbId"]] = mb;
         }
         onSendInputOfRS: {

@@ -183,7 +183,7 @@ Item {
                                 onSureMb: {
                                     for(var key in global.mbTrails){
                                         if(key == mb.name + mb.mbId){
-                                            mapObject.mbPlay(key, global.mbTrails[key], Number(mb.times) * Number(mb.timeStep));
+                                            mapObject.mbPlay(mb.name, global.mbTrails[key], Number(mb.times) * Number(mb.timeStep));
                                             return;
                                         }
                                     }
@@ -205,7 +205,7 @@ Item {
                                     penToolSever.getMbTrail(mbForm);
                                 }
                                 onCancleMb: {
-                                    mapObject.mbDisplay(mb.name + mb.mbId);
+                                    mapObject.mbDisplay(mb.name);
                                     return;
                                 }
                             }

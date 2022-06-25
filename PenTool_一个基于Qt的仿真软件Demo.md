@@ -12,43 +12,62 @@ Born for industrial simulation software development
 
 ##### [CSDN](https://blog.csdn.net/qq_47898198)
 
+##### [Github](https://github.com/STDwang/PenTool)
+
+##### [PenTool_Win_1_0](https://download.csdn.net/download/qq_47898198/85763728)
+
 ## 简介
 
-&emsp;最近一年的工作一直在进行从无到有的Qt上位机开发，想要将自己的一些收获输出和开源。
+```
+  最近一年的工作一直在进行从无到有的Qt上位机开发，想要将自己的一些收获输出和开源。
 
-&emsp;Qt无疑是个伟大的跨平台框架，成熟稳定的QtWidget之后Qt大势所趋的将重心放在了QtQuick，其Qml虽可能在某些方面还不如web界面开发的三件套，但潜力和未来是可以看到的。但是Qml作为新生儿，确实与和UI库，开发文档，开发环境稳定而又舒适的web前后端开发形成了鲜明的对比，现阶段很难找到一个完善好用且稳定的UI组件库。
+  Qt无疑是个伟大的跨平台框架，成熟稳定的QtWidget之后Qt大势所趋的将重心放在了QtQuick，其Qml虽可能在某些方面还不如web界面开发的三件套，但潜力和未来是可以看到的。但是Qml作为新生儿，确实与和UI库，开发文档，开发环境稳定而又舒适的web前后端开发形成了鲜明的对比，现阶段很难找到一个完善好用且稳定的UI组件库。
+  
+  这里，本软件采用T2D作为软件的UI组件库选择来加快软件的开发速度，在此基础上丰富Qt上位机中可能需要的模块，您可以将其作为了软件demo进行学习，也可以直接将其作为一个简单的项目框架来使用。 demo会陆续更新一些实用模块。 
 
-&emsp;这里，本软件采用**T2D**作为软件的UI组件库选择来加快软件的开发速度，在此基础上丰富Qt上位机中可能需要的模块，您可以将其作为了软件demo进行学习，也可以直接将其作为一个简单的项目框架来使用。 demo会陆续更新一些实用模块。 
-
-&emsp;那么，言归正传，这个demo为我们带来了什么呢？
+  那么，言归正传，这个demo为我们带来了什么呢？
+```
 
 ### 软件模块
 
 #### Sqlite数据库管理
 
-&emsp;demo开发了三个表简单的增删改查功能和UI可视化操作，您可以自主进行参考和修改增删。
+```
+demo开发了三个表简单的增删改查功能和UI可视化操作，您可以自主进行参考和修改增删。
+```
 
 #### 多线程(线程池)处理计算任务
 
-&emsp;demo设想了一种计算任务的需求并据此设计了一种多线程设计方案，通过信号量和工作类的不同任务Id和不同构造函数指定线程应该执行的计算任务，您可以花一点时间阅读源码并按照自己的意愿进行修改。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/f0f809dbb6154198888caa273972886d.png)
+```
+demo设想了一种计算任务的需求并据此设计了一种多线程设计方案，通过信号量和工作类的不同任务Id和不同构造函数指定线程应该执行的计算任务，您可以花一点时间阅读源码并按照自己的意愿进行修改。
+```
 
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f0f809dbb6154198888caa273972886d.png#pic_center)
 
 #### 快速傅里叶和图表绘制
 
-&emsp;demo后端对一些时域频域假数据进行了快速傅里叶变换并绘制波形，处理结果与Matlab保持一致，函数由matlabCoder生成，可放心使用，希望更快的速度，建议使用fftw库。
+```
+  demo后端对一些时域频域假数据进行了快速傅里叶变换并绘制波形，处理结果与Matlab保持一致，函数由matlabCoder生成，可放心使用，希望更快的速度，建议使用fftw库。
+```
 
 #### BIGEMap-3D地球卫星轨迹绘制
 
-&emsp;demo使用第三方接口BIGEMap绘制3D地球和卫星轨迹，您可以借鉴并进行修改和开发，详细使用见下方介绍。
+```
+  demo使用第三方接口BIGEMap绘制3D地球和卫星轨迹，您可以借鉴并进行修改和开发，详细使用见下方介绍。
+```
 
 #### INI配置文件的读写
 
-&emsp;demo基于INI文件对软件的一些系统配置参数进行了可视化管理，支持用户自定义软件的某些参数。
+```
+  demo基于INI文件对软件的一些系统配置参数进行了可视化管理，支持用户自定义软件的某些参数。
+```
 
 #### 简单的Lincese软件加密
 
-&emsp;具体实现见源码
+```
+  具体实现见源码
+```
 
 #### ......
 
@@ -56,7 +75,7 @@ Born for industrial simulation software development
 
 ##### [Figma原型链接](https://www.figma.com/file/SWHyOkFPrDCuUm0HNF5SWi/myApp?node-id=0%3A1)
 
-![请添加图片描述](https://img-blog.csdnimg.cn/185c2172d7bc4e10b2b9e27f3539ad55.gif)
+![请添加图片描述](https://img-blog.csdnimg.cn/185c2172d7bc4e10b2b9e27f3539ad55.gif#pic_center)
 
 
 | 模块         |                             biu                              |                             biu                              |
@@ -90,4 +109,5 @@ Born for industrial simulation software development
 
 ### 最后想说的话
 
-&emsp;如果我的作品对您有帮助，不妨留下 **star** 一枚~
+&emsp;&emsp;如果我的作品对您有帮助，不妨留下 **star** 一枚~
+![68f48c5d6f94fdb13232b9ea563e5f5.jpg](http://101.43.234.220:8090/upload/2022/06/68f48c5d6f94fdb13232b9ea563e5f5-4496d90a200c4e4184914c0a2475a743.jpg)
