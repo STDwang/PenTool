@@ -1,7 +1,6 @@
 #ifndef COMFUTION_H
 #define COMFUTION_H
 #include "./pentooldatatype.h"
-#include <QAxObject>
 #include <QObject>
 #include <QString>
 #include <QVariant>

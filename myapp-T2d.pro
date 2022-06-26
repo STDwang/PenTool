@@ -1,4 +1,4 @@
-QT += qml quick multimedia multimediawidgets axcontainer webview webchannel websockets webengine sql webenginewidgets
+QT += qml quick multimedia multimediawidgets webview webchannel websockets webengine sql webenginewidgets
 
 CONFIG += c++11
 
@@ -31,8 +31,10 @@ SOURCES += main.cpp \
     src/work-task4.cpp
 
 RESOURCES += qml.qrc
+
 RC_FILE = \
 logo.rc
+
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
 

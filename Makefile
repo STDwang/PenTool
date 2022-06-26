@@ -260,7 +260,6 @@ Makefile: myapp-T2d.pro F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\win32
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\moc.prf \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\win32\opengl.prf \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\uic.prf \
-		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\win32\dumpcpp.prf \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\qmake_use.prf \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\file_copies.prf \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\win32\windows.prf \
@@ -275,8 +274,6 @@ Makefile: myapp-T2d.pro F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\win32
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5Quick.prl \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5MultimediaWidgets.prl \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5Multimedia.prl \
-		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5AxContainer.prl \
-		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5AxBase.prl \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5PrintSupport.prl \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5Widgets.prl \
 		F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5WebView.prl \
@@ -473,7 +470,6 @@ F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\qt.prf:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\moc.prf:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\win32\opengl.prf:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\uic.prf:
-F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\win32\dumpcpp.prf:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\qmake_use.prf:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\file_copies.prf:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\mkspecs\features\win32\windows.prf:
@@ -488,8 +484,6 @@ F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5WebEngineCore.prl:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5Quick.prl:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5MultimediaWidgets.prl:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5Multimedia.prl:
-F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5AxContainer.prl:
-F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5AxBase.prl:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5PrintSupport.prl:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5Widgets.prl:
 F:\software\Qt\Qt5.12.7\5.12.7\msvc2017_64\lib\Qt5WebView.prl:

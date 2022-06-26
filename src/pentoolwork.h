@@ -3,10 +3,9 @@
 #pragma execution_character_set("utf-8")
 #include <QThread>
 #include <QVariant>
-#include <QAxObject>
 #include <QRunnable>
 #include <QTextCodec>
-#include<QDateTime>
+#include <QDateTime>
 #include <qdir.h>
 #include <QtCore/qexception.h>
 #include "qdebug.h"
