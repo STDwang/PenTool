@@ -2,6 +2,9 @@ QT += qml quick multimedia multimediawidgets webview webchannel websockets weben
 
 CONFIG += c++11
 
+SUBDIRS += \
+    bin/t2d/Toou2D.pro
+
 SOURCES += main.cpp \
     bin/mat/fft1.cpp \
     bin/mat/rtGetInf.cpp \
@@ -28,9 +31,27 @@ SOURCES += main.cpp \
     src/work-task1.cpp \
     src/work-task2.cpp \
     src/work-task3.cpp \
-    src/work-task4.cpp
+    src/work-task4.cpp \
+    bin/t2d/def.cpp \
+    bin/t2d/qml_plugin.cpp \
+    bin/t2d/t2d.cpp \
+    bin/t2d/toou2d.cpp \
+    bin/t2d/world.cpp \
+    bin/t2d/theme/theme_binder.cpp \
+    bin/t2d/theme/theme_handler.cpp \
+    bin/t2d/theme/ThemeManager.cpp \
+    bin/t2d/controls/gadget/tcolor.cpp \
+    bin/t2d/controls/gadget/tgadgetbackground.cpp \
+    bin/t2d/controls/gadget/tgadgetborder.cpp \
+    bin/t2d/controls/gadget/tgadgeticon.cpp \
+    bin/t2d/controls/gadget/tgadgetitem.cpp \
+    bin/t2d/controls/gadget/tgadgetlabel.cpp \
+    bin/t2d/controls/gadget/tgadgetscrollbar.cpp \
+    bin/t2d/controls/interface/tdialogitem.cpp \
+    bin/t2d/controls/interface/ttoastitem.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += qml.qrc \
+    bin/t2d/t2d_res.qrc
 
 RC_FILE = \
 logo.rc
@@ -79,4 +100,26 @@ HEADERS += \
     src/pentooldatatype.h \
     src/pentoolwork.h \
     src/qmlplot.h \
-    src/websockettransport.h
+    src/websockettransport.h \
+    bin/t2d/def.h \
+    bin/t2d/qml_plugin.h \
+    bin/t2d/t2d.h \
+    bin/t2d/Toou2D.h \
+    bin/t2d/world.h \
+    bin/t2d/theme/theme_binder.h \
+    bin/t2d/theme/theme_handler.h \
+    bin/t2d/theme/ThemeManager.h \
+    bin/t2d/controls/gadget/tcolor.h \
+    bin/t2d/controls/gadget/tgadgetbackground.h \
+    bin/t2d/controls/gadget/tgadgetborder.h \
+    bin/t2d/controls/gadget/tgadgeticon.h \
+    bin/t2d/controls/gadget/tgadgetitem.h \
+    bin/t2d/controls/gadget/tgadgetlabel.h \
+    bin/t2d/controls/gadget/tgadgetscrollbar.h \
+    bin/t2d/controls/interface/tdialogitem.h \
+    bin/t2d/controls/interface/ttoastitem.h
+
+SUBDIRS += \
+    bin/t2d/Toou2D.pro
+
+DISTFILES +=

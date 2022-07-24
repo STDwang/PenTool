@@ -14,7 +14,6 @@ Window {
     minimumHeight: 861
     width: 1398
     height: 861
-    opacity: 0.96
     flags: Qt.Window | Qt.FramelessWindowHint   //去标题栏
 
     T2DWorld{
