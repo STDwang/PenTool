@@ -7,7 +7,7 @@
 #include "./src/pentoolsever.h"
 #include "./src/qmlplot.h"
 #include "./src/websockettransport.h"
-#include "./bin/t2d/Toou2D.h"
+#include "./src/t2d/Toou2D.h"
 
 int main(int argc, char* argv[])
 {

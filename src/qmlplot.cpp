@@ -1,5 +1,5 @@
 ﻿#include "qmlplot.h"
-#include "../bin/qcustomplot/qcustomplot.h"
+#include "./qcustomplot/qcustomplot.h"
 #include <QDebug>
 
 DDuiBasePlotItem::DDuiBasePlotItem( QQuickItem* parent ) : QQuickPaintedItem( parent ) , m_CustomPlot( new QCustomPlot() )

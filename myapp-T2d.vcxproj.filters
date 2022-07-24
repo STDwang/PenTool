@@ -37,13 +37,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bin\t2d\theme\ThemeManager.cpp">
+    <ClCompile Include="src\t2d\theme\ThemeManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\def.cpp">
+    <ClCompile Include="src\t2d\def.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\fft1.cpp">
+    <ClCompile Include="src\mat\fft1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -58,22 +58,22 @@
     <ClCompile Include="src\pentoolwork.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp">
+    <ClCompile Include="src\qcustomplot\qcustomplot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\qml_plugin.cpp">
+    <ClCompile Include="src\t2d\qml_plugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\qmlplot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\rtGetInf.cpp">
+    <ClCompile Include="src\mat\rtGetInf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\rtGetNaN.cpp">
+    <ClCompile Include="src\mat\rtGetNaN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\rt_nonfinite.cpp">
+    <ClCompile Include="src\mat\rt_nonfinite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\sever-sql.cpp">
@@ -94,58 +94,58 @@
     <ClCompile Include="src\sql-sates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\t2d.cpp">
+    <ClCompile Include="src\t2d\t2d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tcolor.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tcolor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\interface\tdialogitem.cpp">
+    <ClCompile Include="src\t2d\controls\interface\tdialogitem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\test.cpp">
+    <ClCompile Include="src\mat\test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\test_emxAPI.cpp">
+    <ClCompile Include="src\mat\test_emxAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\test_emxutil.cpp">
+    <ClCompile Include="src\mat\test_emxutil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\test_initialize.cpp">
+    <ClCompile Include="src\mat\test_initialize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\test_terminate.cpp">
+    <ClCompile Include="src\mat\test_terminate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetbackground.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetbackground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetborder.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetborder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgeticon.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tgadgeticon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetitem.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetitem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetlabel.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetlabel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetscrollbar.cpp">
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetscrollbar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\theme\theme_binder.cpp">
+    <ClCompile Include="src\t2d\theme\theme_binder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\theme\theme_handler.cpp">
+    <ClCompile Include="src\t2d\theme\theme_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\toou2d.cpp">
+    <ClCompile Include="src\t2d\toou2d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\controls\interface\ttoastitem.cpp">
+    <ClCompile Include="src\t2d\controls\interface\ttoastitem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\work-creMb.cpp">
@@ -166,24 +166,24 @@
     <ClCompile Include="src\work-task4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\t2d\world.cpp">
+    <ClCompile Include="src\t2d\world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="bin\t2d\theme\ThemeManager.h">
+    <QtMoc Include="src\t2d\theme\ThemeManager.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="bin\t2d\Toou2D.h">
+    <ClInclude Include="src\t2d\Toou2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\comfution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="bin\t2d\def.h">
+    <QtMoc Include="src\t2d\def.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="bin\mat\fft1.h">
+    <ClInclude Include="src\mat\fft1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\lincesecreator.h">
@@ -204,88 +204,88 @@
     <QtMoc Include="src\pentoolwork.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
+    <QtMoc Include="src\qcustomplot\qcustomplot.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\qml_plugin.h">
+    <QtMoc Include="src\t2d\qml_plugin.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\qmlplot.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="bin\mat\rtGetInf.h">
+    <ClInclude Include="src\mat\rtGetInf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\rtGetNaN.h">
+    <ClInclude Include="src\mat\rtGetNaN.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\rt_nonfinite.h">
+    <ClInclude Include="src\mat\rt_nonfinite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\rtwtypes.h">
+    <ClInclude Include="src\mat\rtwtypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="bin\t2d\t2d.h">
+    <QtMoc Include="src\t2d\t2d.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tcolor.h">
+    <QtMoc Include="src\t2d\controls\gadget\tcolor.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\interface\tdialogitem.h">
+    <QtMoc Include="src\t2d\controls\interface\tdialogitem.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="bin\mat\test.h">
+    <ClInclude Include="src\mat\test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\test_emxAPI.h">
+    <ClInclude Include="src\mat\test_emxAPI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\test_emxutil.h">
+    <ClInclude Include="src\mat\test_emxutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\test_initialize.h">
+    <ClInclude Include="src\mat\test_initialize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\test_terminate.h">
+    <ClInclude Include="src\mat\test_terminate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bin\mat\test_types.h">
+    <ClInclude Include="src\mat\test_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetbackground.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetbackground.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetborder.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetborder.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgeticon.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgeticon.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetitem.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetitem.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetlabel.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetlabel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetscrollbar.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetscrollbar.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\theme\theme_binder.h">
+    <QtMoc Include="src\t2d\theme\theme_binder.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\theme\theme_handler.h">
+    <QtMoc Include="src\t2d\theme\theme_handler.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="bin\mat\tmwtypes.h">
+    <ClInclude Include="src\mat\tmwtypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="bin\t2d\controls\interface\ttoastitem.h">
+    <QtMoc Include="src\t2d\controls\interface\ttoastitem.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\websockettransport.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="bin\t2d\world.h">
+    <QtMoc Include="src\t2d\world.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -451,7 +451,7 @@
     <None Include="themes\Solarized\TAvatar.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TAvatar.qml">
+    <None Include="src\t2d\controls\TAvatar.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TAwesomeIcon.ini">
@@ -460,7 +460,7 @@
     <None Include="themes\Solarized\TAwesomeIcon.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TAwesomeIcon.qml">
+    <None Include="src\t2d\controls\TAwesomeIcon.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TBadge.ini">
@@ -469,7 +469,7 @@
     <None Include="themes\Solarized\TBadge.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TBadge.qml">
+    <None Include="src\t2d\controls\TBadge.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TBusyIndicator.ini">
@@ -478,7 +478,7 @@
     <None Include="themes\Solarized\TBusyIndicator.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TBusyIndicator.qml">
+    <None Include="src\t2d\controls\TBusyIndicator.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TButton.ini">
@@ -487,7 +487,7 @@
     <None Include="themes\Solarized\TButton.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TButton.qml">
+    <None Include="src\t2d\controls\TButton.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TCarousel.ini">
@@ -496,10 +496,10 @@
     <None Include="themes\Solarized\TCarousel.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TCarousel.qml">
+    <None Include="src\t2d\controls\TCarousel.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TCarouselElement.qml">
+    <None Include="src\t2d\controls\TCarouselElement.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TCheckBox.ini">
@@ -508,7 +508,7 @@
     <None Include="themes\Solarized\TCheckBox.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TCheckBox.qml">
+    <None Include="src\t2d\controls\TCheckBox.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TDialog.ini">
@@ -517,13 +517,13 @@
     <None Include="themes\Solarized\TDialog.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TDialog.qml">
+    <None Include="src\t2d\controls\TDialog.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TDialogBasic.qml">
+    <None Include="src\t2d\controls\TDialogBasic.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TDialogButton.qml">
+    <None Include="src\t2d\controls\TDialogButton.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TDividerLine.ini">
@@ -532,13 +532,13 @@
     <None Include="themes\Solarized\TDividerLine.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TDividerLine.qml">
+    <None Include="src\t2d\controls\TDividerLine.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TFlickable.qml">
+    <None Include="src\t2d\controls\TFlickable.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TFpsMonitor.qml">
+    <None Include="src\t2d\controls\TFpsMonitor.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TIcon.ini">
@@ -547,7 +547,7 @@
     <None Include="themes\Solarized\TIcon.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TIcon.qml">
+    <None Include="src\t2d\controls\TIcon.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TIconButton.ini">
@@ -556,7 +556,7 @@
     <None Include="themes\Solarized\TIconButton.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TIconButton.qml">
+    <None Include="src\t2d\controls\TIconButton.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TImage.ini">
@@ -565,7 +565,7 @@
     <None Include="themes\Solarized\TImage.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TImage.qml">
+    <None Include="src\t2d\controls\TImage.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TImageButton.ini">
@@ -574,7 +574,7 @@
     <None Include="themes\Solarized\TImageButton.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TImageButton.qml">
+    <None Include="src\t2d\controls\TImageButton.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TInputField.ini">
@@ -583,7 +583,7 @@
     <None Include="themes\Solarized\TInputField.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TInputField.qml">
+    <None Include="src\t2d\controls\TInputField.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TLabel.ini">
@@ -592,13 +592,13 @@
     <None Include="themes\Solarized\TLabel.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TLabel.qml">
+    <None Include="src\t2d\controls\TLabel.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TMask.qml">
+    <None Include="src\t2d\controls\TMask.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TMouseArea.qml">
+    <None Include="src\t2d\controls\TMouseArea.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TNavigationBar.ini">
@@ -607,13 +607,13 @@
     <None Include="themes\Solarized\TNavigationBar.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TNavigationBar.qml">
+    <None Include="src\t2d\controls\TNavigationBar.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TNavigationElement.qml">
+    <None Include="src\t2d\controls\TNavigationElement.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TObject.qml">
+    <None Include="src\t2d\controls\TObject.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TPagination.ini">
@@ -622,7 +622,7 @@
     <None Include="themes\Solarized\TPagination.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TPagination.qml">
+    <None Include="src\t2d\controls\TPagination.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TPopover.ini">
@@ -631,10 +631,10 @@
     <None Include="themes\Solarized\TPopover.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TPopover.qml">
+    <None Include="src\t2d\controls\TPopover.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TPopoverElement.qml">
+    <None Include="src\t2d\controls\TPopoverElement.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TPopoverMenu.ini">
@@ -643,10 +643,10 @@
     <None Include="themes\Solarized\TPopoverMenu.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TPopoverMenu.qml">
+    <None Include="src\t2d\controls\TPopoverMenu.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TPopup.qml">
+    <None Include="src\t2d\controls\TPopup.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TProgressBar.ini">
@@ -655,7 +655,7 @@
     <None Include="themes\Solarized\TProgressBar.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TProgressBar.qml">
+    <None Include="src\t2d\controls\TProgressBar.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TRadioBox.ini">
@@ -664,10 +664,10 @@
     <None Include="themes\Solarized\TRadioBox.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TRadioBox.qml">
+    <None Include="src\t2d\controls\TRadioBox.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TRadioBoxGroup.qml">
+    <None Include="src\t2d\controls\TRadioBoxGroup.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TRectangle.ini">
@@ -676,7 +676,7 @@
     <None Include="themes\Solarized\TRectangle.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TRectangle.qml">
+    <None Include="src\t2d\controls\TRectangle.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TSVGIcon.ini">
@@ -685,13 +685,13 @@
     <None Include="themes\Solarized\TSVGIcon.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TSVGIcon.qml">
+    <None Include="src\t2d\controls\TSVGIcon.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TScrollbarH.qml">
+    <None Include="src\t2d\controls\TScrollbarH.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TScrollbarV.qml">
+    <None Include="src\t2d\controls\TScrollbarV.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TSwitch.ini">
@@ -700,7 +700,7 @@
     <None Include="themes\Solarized\TSwitch.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TSwitch.qml">
+    <None Include="src\t2d\controls\TSwitch.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TTag.ini">
@@ -709,7 +709,7 @@
     <None Include="themes\Solarized\TTag.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TTag.qml">
+    <None Include="src\t2d\controls\TTag.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\TToast.ini">
@@ -718,7 +718,7 @@
     <None Include="themes\Solarized\TToast.ini">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\controls\TToast.qml">
+    <None Include="src\t2d\controls\TToast.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="qml\common\Topbar.qml">
@@ -727,22 +727,22 @@
     <None Include="qml\view\home\TopbarHome.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\svg\close-px.svg">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="bin\t2d\resource\svg\close.svg">
+    <None Include="src\t2d\resource\svg\close-px.svg">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="res\svg\close.svg">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="src\t2d\resource\svg\close.svg">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="res\jpg\earth.jpg">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\svg\error.svg">
+    <None Include="src\t2d\resource\svg\error.svg">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\font\fontawesome-webfont.ttf">
+    <None Include="src\t2d\resource\font\fontawesome-webfont.ttf">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="res\svg\hide.svg">
@@ -754,7 +754,7 @@
     <None Include="qml\view\awesome\index.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\svg\info.svg">
+    <None Include="src\t2d\resource\svg\info.svg">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="themes\Dark\main.ini">
@@ -766,7 +766,7 @@
     <None Include="main.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\font\mask.cso">
+    <None Include="src\t2d\resource\font\mask.cso">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="res\svg\max.svg">
@@ -805,16 +805,16 @@
     <None Include="res\png\sate.png">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\svg\success.svg">
+    <None Include="src\t2d\resource\svg\success.svg">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="bin\t2d\resource\font\svg.cso">
+    <None Include="src\t2d\resource\font\svg.cso">
       <Filter>Resource Files</Filter>
     </None>
-    <QtRcc Include="bin\t2d\t2d_res.qrc">
+    <QtRcc Include="src\t2d\t2d_res.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <None Include="bin\t2d\resource\svg\warning.svg">
+    <None Include="src\t2d\resource\svg\warning.svg">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

@@ -187,59 +187,59 @@
     </QtMoc>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bin\t2d\theme\ThemeManager.cpp" />
-    <ClCompile Include="bin\t2d\def.cpp" />
-    <ClCompile Include="bin\mat\fft1.cpp" />
+    <ClCompile Include="src\t2d\theme\ThemeManager.cpp" />
+    <ClCompile Include="src\t2d\def.cpp" />
+    <ClCompile Include="src\mat\fft1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\pentoolsever.cpp" />
     <ClCompile Include="src\pentoolsql.cpp" />
     <ClCompile Include="src\pentoolwork.cpp" />
-    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp" />
-    <ClCompile Include="bin\t2d\qml_plugin.cpp" />
+    <ClCompile Include="src\qcustomplot\qcustomplot.cpp" />
+    <ClCompile Include="src\t2d\qml_plugin.cpp" />
     <ClCompile Include="src\qmlplot.cpp" />
-    <ClCompile Include="bin\mat\rtGetInf.cpp" />
-    <ClCompile Include="bin\mat\rtGetNaN.cpp" />
-    <ClCompile Include="bin\mat\rt_nonfinite.cpp" />
+    <ClCompile Include="src\mat\rtGetInf.cpp" />
+    <ClCompile Include="src\mat\rtGetNaN.cpp" />
+    <ClCompile Include="src\mat\rt_nonfinite.cpp" />
     <ClCompile Include="src\sever-sql.cpp" />
     <ClCompile Include="src\sever-ui.cpp" />
     <ClCompile Include="src\sever-work.cpp" />
     <ClCompile Include="src\sql-mb.cpp" />
     <ClCompile Include="src\sql-project.cpp" />
     <ClCompile Include="src\sql-sates.cpp" />
-    <ClCompile Include="bin\t2d\t2d.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tcolor.cpp" />
-    <ClCompile Include="bin\t2d\controls\interface\tdialogitem.cpp" />
-    <ClCompile Include="bin\mat\test.cpp" />
-    <ClCompile Include="bin\mat\test_emxAPI.cpp" />
-    <ClCompile Include="bin\mat\test_emxutil.cpp" />
-    <ClCompile Include="bin\mat\test_initialize.cpp" />
-    <ClCompile Include="bin\mat\test_terminate.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetbackground.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetborder.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgeticon.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetitem.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetlabel.cpp" />
-    <ClCompile Include="bin\t2d\controls\gadget\tgadgetscrollbar.cpp" />
-    <ClCompile Include="bin\t2d\theme\theme_binder.cpp" />
-    <ClCompile Include="bin\t2d\theme\theme_handler.cpp" />
-    <ClCompile Include="bin\t2d\toou2d.cpp" />
-    <ClCompile Include="bin\t2d\controls\interface\ttoastitem.cpp" />
+    <ClCompile Include="src\t2d\t2d.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tcolor.cpp" />
+    <ClCompile Include="src\t2d\controls\interface\tdialogitem.cpp" />
+    <ClCompile Include="src\mat\test.cpp" />
+    <ClCompile Include="src\mat\test_emxAPI.cpp" />
+    <ClCompile Include="src\mat\test_emxutil.cpp" />
+    <ClCompile Include="src\mat\test_initialize.cpp" />
+    <ClCompile Include="src\mat\test_terminate.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetbackground.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetborder.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tgadgeticon.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetitem.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetlabel.cpp" />
+    <ClCompile Include="src\t2d\controls\gadget\tgadgetscrollbar.cpp" />
+    <ClCompile Include="src\t2d\theme\theme_binder.cpp" />
+    <ClCompile Include="src\t2d\theme\theme_handler.cpp" />
+    <ClCompile Include="src\t2d\toou2d.cpp" />
+    <ClCompile Include="src\t2d\controls\interface\ttoastitem.cpp" />
     <ClCompile Include="src\work-creMb.cpp" />
     <ClCompile Include="src\work-creSate.cpp" />
     <ClCompile Include="src\work-task1.cpp" />
     <ClCompile Include="src\work-task2.cpp" />
     <ClCompile Include="src\work-task3.cpp" />
     <ClCompile Include="src\work-task4.cpp" />
-    <ClCompile Include="bin\t2d\world.cpp" />
+    <ClCompile Include="src\t2d\world.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="bin\t2d\theme\ThemeManager.h">
+    <QtMoc Include="src\t2d\theme\ThemeManager.h">
     </QtMoc>
-    <ClInclude Include="bin\t2d\Toou2D.h" />
+    <ClInclude Include="src\t2d\Toou2D.h" />
     <ClInclude Include="src\comfution.h" />
-    <QtMoc Include="bin\t2d\def.h">
+    <QtMoc Include="src\t2d\def.h">
     </QtMoc>
-    <ClInclude Include="bin\mat\fft1.h" />
+    <ClInclude Include="src\mat\fft1.h" />
     <ClInclude Include="src\lincesecreator.h" />
     <ClInclude Include="src\mathfution.h" />
     <ClInclude Include="src\pentooldatatype.h" />
@@ -249,50 +249,50 @@
     </QtMoc>
     <QtMoc Include="src\pentoolwork.h">
     </QtMoc>
-    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
+    <QtMoc Include="src\qcustomplot\qcustomplot.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\qml_plugin.h">
+    <QtMoc Include="src\t2d\qml_plugin.h">
     </QtMoc>
     <QtMoc Include="src\qmlplot.h">
     </QtMoc>
-    <ClInclude Include="bin\mat\rtGetInf.h" />
-    <ClInclude Include="bin\mat\rtGetNaN.h" />
-    <ClInclude Include="bin\mat\rt_nonfinite.h" />
-    <ClInclude Include="bin\mat\rtwtypes.h" />
-    <QtMoc Include="bin\t2d\t2d.h">
+    <ClInclude Include="src\mat\rtGetInf.h" />
+    <ClInclude Include="src\mat\rtGetNaN.h" />
+    <ClInclude Include="src\mat\rt_nonfinite.h" />
+    <ClInclude Include="src\mat\rtwtypes.h" />
+    <QtMoc Include="src\t2d\t2d.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tcolor.h">
+    <QtMoc Include="src\t2d\controls\gadget\tcolor.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\interface\tdialogitem.h">
+    <QtMoc Include="src\t2d\controls\interface\tdialogitem.h">
     </QtMoc>
-    <ClInclude Include="bin\mat\test.h" />
-    <ClInclude Include="bin\mat\test_emxAPI.h" />
-    <ClInclude Include="bin\mat\test_emxutil.h" />
-    <ClInclude Include="bin\mat\test_initialize.h" />
-    <ClInclude Include="bin\mat\test_terminate.h" />
-    <ClInclude Include="bin\mat\test_types.h" />
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetbackground.h">
+    <ClInclude Include="src\mat\test.h" />
+    <ClInclude Include="src\mat\test_emxAPI.h" />
+    <ClInclude Include="src\mat\test_emxutil.h" />
+    <ClInclude Include="src\mat\test_initialize.h" />
+    <ClInclude Include="src\mat\test_terminate.h" />
+    <ClInclude Include="src\mat\test_types.h" />
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetbackground.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetborder.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetborder.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgeticon.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgeticon.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetitem.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetitem.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetlabel.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetlabel.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\controls\gadget\tgadgetscrollbar.h">
+    <QtMoc Include="src\t2d\controls\gadget\tgadgetscrollbar.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\theme\theme_binder.h">
+    <QtMoc Include="src\t2d\theme\theme_binder.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\theme\theme_handler.h">
+    <QtMoc Include="src\t2d\theme\theme_handler.h">
     </QtMoc>
-    <ClInclude Include="bin\mat\tmwtypes.h" />
-    <QtMoc Include="bin\t2d\controls\interface\ttoastitem.h">
+    <ClInclude Include="src\mat\tmwtypes.h" />
+    <QtMoc Include="src\t2d\controls\interface\ttoastitem.h">
     </QtMoc>
     <QtMoc Include="src\websockettransport.h">
     </QtMoc>
-    <QtMoc Include="bin\t2d\world.h">
+    <QtMoc Include="src\t2d\world.h">
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -349,112 +349,112 @@
     <None Include="qml\common\SearchTimeAtt.qml" />
     <None Include="themes\Dark\TAvatar.ini" />
     <None Include="themes\Solarized\TAvatar.ini" />
-    <None Include="bin\t2d\controls\TAvatar.qml" />
+    <None Include="src\t2d\controls\TAvatar.qml" />
     <None Include="themes\Dark\TAwesomeIcon.ini" />
     <None Include="themes\Solarized\TAwesomeIcon.ini" />
-    <None Include="bin\t2d\controls\TAwesomeIcon.qml" />
+    <None Include="src\t2d\controls\TAwesomeIcon.qml" />
     <None Include="themes\Dark\TBadge.ini" />
     <None Include="themes\Solarized\TBadge.ini" />
-    <None Include="bin\t2d\controls\TBadge.qml" />
+    <None Include="src\t2d\controls\TBadge.qml" />
     <None Include="themes\Dark\TBusyIndicator.ini" />
     <None Include="themes\Solarized\TBusyIndicator.ini" />
-    <None Include="bin\t2d\controls\TBusyIndicator.qml" />
+    <None Include="src\t2d\controls\TBusyIndicator.qml" />
     <None Include="themes\Dark\TButton.ini" />
     <None Include="themes\Solarized\TButton.ini" />
-    <None Include="bin\t2d\controls\TButton.qml" />
+    <None Include="src\t2d\controls\TButton.qml" />
     <None Include="themes\Dark\TCarousel.ini" />
     <None Include="themes\Solarized\TCarousel.ini" />
-    <None Include="bin\t2d\controls\TCarousel.qml" />
-    <None Include="bin\t2d\controls\TCarouselElement.qml" />
+    <None Include="src\t2d\controls\TCarousel.qml" />
+    <None Include="src\t2d\controls\TCarouselElement.qml" />
     <None Include="themes\Dark\TCheckBox.ini" />
     <None Include="themes\Solarized\TCheckBox.ini" />
-    <None Include="bin\t2d\controls\TCheckBox.qml" />
+    <None Include="src\t2d\controls\TCheckBox.qml" />
     <None Include="themes\Dark\TDialog.ini" />
     <None Include="themes\Solarized\TDialog.ini" />
-    <None Include="bin\t2d\controls\TDialog.qml" />
-    <None Include="bin\t2d\controls\TDialogBasic.qml" />
-    <None Include="bin\t2d\controls\TDialogButton.qml" />
+    <None Include="src\t2d\controls\TDialog.qml" />
+    <None Include="src\t2d\controls\TDialogBasic.qml" />
+    <None Include="src\t2d\controls\TDialogButton.qml" />
     <None Include="themes\Dark\TDividerLine.ini" />
     <None Include="themes\Solarized\TDividerLine.ini" />
-    <None Include="bin\t2d\controls\TDividerLine.qml" />
-    <None Include="bin\t2d\controls\TFlickable.qml" />
-    <None Include="bin\t2d\controls\TFpsMonitor.qml" />
+    <None Include="src\t2d\controls\TDividerLine.qml" />
+    <None Include="src\t2d\controls\TFlickable.qml" />
+    <None Include="src\t2d\controls\TFpsMonitor.qml" />
     <None Include="themes\Dark\TIcon.ini" />
     <None Include="themes\Solarized\TIcon.ini" />
-    <None Include="bin\t2d\controls\TIcon.qml" />
+    <None Include="src\t2d\controls\TIcon.qml" />
     <None Include="themes\Dark\TIconButton.ini" />
     <None Include="themes\Solarized\TIconButton.ini" />
-    <None Include="bin\t2d\controls\TIconButton.qml" />
+    <None Include="src\t2d\controls\TIconButton.qml" />
     <None Include="themes\Dark\TImage.ini" />
     <None Include="themes\Solarized\TImage.ini" />
-    <None Include="bin\t2d\controls\TImage.qml" />
+    <None Include="src\t2d\controls\TImage.qml" />
     <None Include="themes\Dark\TImageButton.ini" />
     <None Include="themes\Solarized\TImageButton.ini" />
-    <None Include="bin\t2d\controls\TImageButton.qml" />
+    <None Include="src\t2d\controls\TImageButton.qml" />
     <None Include="themes\Dark\TInputField.ini" />
     <None Include="themes\Solarized\TInputField.ini" />
-    <None Include="bin\t2d\controls\TInputField.qml" />
+    <None Include="src\t2d\controls\TInputField.qml" />
     <None Include="themes\Dark\TLabel.ini" />
     <None Include="themes\Solarized\TLabel.ini" />
-    <None Include="bin\t2d\controls\TLabel.qml" />
-    <None Include="bin\t2d\controls\TMask.qml" />
-    <None Include="bin\t2d\controls\TMouseArea.qml" />
+    <None Include="src\t2d\controls\TLabel.qml" />
+    <None Include="src\t2d\controls\TMask.qml" />
+    <None Include="src\t2d\controls\TMouseArea.qml" />
     <None Include="themes\Dark\TNavigationBar.ini" />
     <None Include="themes\Solarized\TNavigationBar.ini" />
-    <None Include="bin\t2d\controls\TNavigationBar.qml" />
-    <None Include="bin\t2d\controls\TNavigationElement.qml" />
-    <None Include="bin\t2d\controls\TObject.qml" />
+    <None Include="src\t2d\controls\TNavigationBar.qml" />
+    <None Include="src\t2d\controls\TNavigationElement.qml" />
+    <None Include="src\t2d\controls\TObject.qml" />
     <None Include="themes\Dark\TPagination.ini" />
     <None Include="themes\Solarized\TPagination.ini" />
-    <None Include="bin\t2d\controls\TPagination.qml" />
+    <None Include="src\t2d\controls\TPagination.qml" />
     <None Include="themes\Dark\TPopover.ini" />
     <None Include="themes\Solarized\TPopover.ini" />
-    <None Include="bin\t2d\controls\TPopover.qml" />
-    <None Include="bin\t2d\controls\TPopoverElement.qml" />
+    <None Include="src\t2d\controls\TPopover.qml" />
+    <None Include="src\t2d\controls\TPopoverElement.qml" />
     <None Include="themes\Dark\TPopoverMenu.ini" />
     <None Include="themes\Solarized\TPopoverMenu.ini" />
-    <None Include="bin\t2d\controls\TPopoverMenu.qml" />
-    <None Include="bin\t2d\controls\TPopup.qml" />
+    <None Include="src\t2d\controls\TPopoverMenu.qml" />
+    <None Include="src\t2d\controls\TPopup.qml" />
     <None Include="themes\Dark\TProgressBar.ini" />
     <None Include="themes\Solarized\TProgressBar.ini" />
-    <None Include="bin\t2d\controls\TProgressBar.qml" />
+    <None Include="src\t2d\controls\TProgressBar.qml" />
     <None Include="themes\Dark\TRadioBox.ini" />
     <None Include="themes\Solarized\TRadioBox.ini" />
-    <None Include="bin\t2d\controls\TRadioBox.qml" />
-    <None Include="bin\t2d\controls\TRadioBoxGroup.qml" />
+    <None Include="src\t2d\controls\TRadioBox.qml" />
+    <None Include="src\t2d\controls\TRadioBoxGroup.qml" />
     <None Include="themes\Dark\TRectangle.ini" />
     <None Include="themes\Solarized\TRectangle.ini" />
-    <None Include="bin\t2d\controls\TRectangle.qml" />
+    <None Include="src\t2d\controls\TRectangle.qml" />
     <None Include="themes\Dark\TSVGIcon.ini" />
     <None Include="themes\Solarized\TSVGIcon.ini" />
-    <None Include="bin\t2d\controls\TSVGIcon.qml" />
-    <None Include="bin\t2d\controls\TScrollbarH.qml" />
-    <None Include="bin\t2d\controls\TScrollbarV.qml" />
+    <None Include="src\t2d\controls\TSVGIcon.qml" />
+    <None Include="src\t2d\controls\TScrollbarH.qml" />
+    <None Include="src\t2d\controls\TScrollbarV.qml" />
     <None Include="themes\Dark\TSwitch.ini" />
     <None Include="themes\Solarized\TSwitch.ini" />
-    <None Include="bin\t2d\controls\TSwitch.qml" />
+    <None Include="src\t2d\controls\TSwitch.qml" />
     <None Include="themes\Dark\TTag.ini" />
     <None Include="themes\Solarized\TTag.ini" />
-    <None Include="bin\t2d\controls\TTag.qml" />
+    <None Include="src\t2d\controls\TTag.qml" />
     <None Include="themes\Dark\TToast.ini" />
     <None Include="themes\Solarized\TToast.ini" />
-    <None Include="bin\t2d\controls\TToast.qml" />
+    <None Include="src\t2d\controls\TToast.qml" />
     <None Include="qml\common\Topbar.qml" />
     <None Include="qml\view\home\TopbarHome.qml" />
-    <None Include="bin\t2d\resource\svg\close-px.svg" />
-    <None Include="bin\t2d\resource\svg\close.svg" />
+    <None Include="src\t2d\resource\svg\close-px.svg" />
     <None Include="res\svg\close.svg" />
+    <None Include="src\t2d\resource\svg\close.svg" />
     <None Include="res\jpg\earth.jpg" />
-    <None Include="bin\t2d\resource\svg\error.svg" />
-    <None Include="bin\t2d\resource\font\fontawesome-webfont.ttf" />
+    <None Include="src\t2d\resource\svg\error.svg" />
+    <None Include="src\t2d\resource\font\fontawesome-webfont.ttf" />
     <None Include="res\svg\hide.svg" />
     <None Include="res\gif\homeVideo.gif" />
     <None Include="qml\view\awesome\index.qml" />
-    <None Include="bin\t2d\resource\svg\info.svg" />
+    <None Include="src\t2d\resource\svg\info.svg" />
     <None Include="themes\Dark\main.ini" />
     <None Include="themes\Solarized\main.ini" />
     <None Include="main.qml" />
-    <None Include="bin\t2d\resource\font\mask.cso" />
+    <None Include="src\t2d\resource\font\mask.cso" />
     <None Include="res\svg\max.svg" />
     <None Include="res\png\mb(1).png" />
     <None Include="res\png\mb.png" />
@@ -470,13 +470,13 @@
     <None Include="map\qwebchannel.js" />
     <None Include="res\png\sate(1).png" />
     <None Include="res\png\sate.png" />
-    <None Include="bin\t2d\resource\svg\success.svg" />
-    <None Include="bin\t2d\resource\font\svg.cso" />
-    <QtRcc Include="bin\t2d\t2d_res.qrc">
+    <None Include="src\t2d\resource\svg\success.svg" />
+    <None Include="src\t2d\resource\font\svg.cso" />
+    <QtRcc Include="src\t2d\t2d_res.qrc">
       <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">t2d_res</InitFuncName>
       <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">t2d_res</InitFuncName>
     </QtRcc>
-    <None Include="bin\t2d\resource\svg\warning.svg" />
+    <None Include="src\t2d\resource\svg\warning.svg" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="logo.rc" />
