@@ -124,7 +124,7 @@ void CustomPlotItem::initIQCustomPlot()
 {
     updateCustomPlotSize();
     //设置title
-    m_title->setText("输入时频");
+    m_title->setText("输入波形");
     m_title->setTextColor(Qt::white);
     m_title->setFont(QFont("微软雅黑", 12, QFont::Bold));
 
@@ -166,7 +166,7 @@ void CustomPlotItem::initBXCustomPlot()
 {
     updateCustomPlotSize();
     //设置title
-    m_title->setText("输出波形(快速傅里叶)");
+    m_title->setText("对应频谱(快速傅里叶)");
     m_title->setTextColor(Qt::white);
     m_title->setFont(QFont("微软雅黑", 12, QFont::Bold));
 

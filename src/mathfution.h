@@ -91,7 +91,6 @@ public:
     //滤波器系数
     void fir1(int lbflen, double Wn[], double lbf[])
     {
-
         /*
             未写排错  检查输入有需要自己进行完善
             原matlab函数fir(j, wn)	【函数默认使用hamming】

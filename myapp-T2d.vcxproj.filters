@@ -35,20 +35,11 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source Files\mat">
-      <UniqueIdentifier>{70a9a05e-e15f-467b-b0b5-ec654441fcc2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\bin">
-      <UniqueIdentifier>{d5fb8dee-b452-4419-a308-7c8eeaddf3b8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\bin\qcustomplot">
-      <UniqueIdentifier>{892c49d4-4379-4144-8e70-35ef211345d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\bin\mat">
-      <UniqueIdentifier>{6a31a790-1117-4785-aece-52b6a979356f}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bin\mat\fft1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -59,6 +50,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\pentoolwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qmlplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\rtGetInf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\rtGetNaN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\rt_nonfinite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\sever-sql.cpp">
@@ -79,16 +85,19 @@
     <ClCompile Include="src\sql-sates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\work-task1.cpp">
+    <ClCompile Include="bin\mat\test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\work-task4.cpp">
+    <ClCompile Include="bin\mat\test_emxAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\work-task2.cpp">
+    <ClCompile Include="bin\mat\test_emxutil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\work-task3.cpp">
+    <ClCompile Include="bin\mat\test_initialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bin\mat\test_terminate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\work-creMb.cpp">
@@ -97,41 +106,32 @@
     <ClCompile Include="src\work-creSate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\qmlplot.cpp">
+    <ClCompile Include="src\work-task1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\fft1.cpp">
-      <Filter>Source Files\mat</Filter>
+    <ClCompile Include="src\work-task2.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\rt_nonfinite.cpp">
-      <Filter>Source Files\mat</Filter>
+    <ClCompile Include="src\work-task3.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bin\mat\rtGetInf.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\mat\rtGetNaN.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\mat\test.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\mat\test_emxAPI.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\mat\test_emxutil.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\mat\test_initialize.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\mat\test_terminate.cpp">
-      <Filter>Source Files\mat</Filter>
-    </ClCompile>
-    <ClCompile Include="bin\qcustomplot\qcustomplot.cpp">
-      <Filter>Header Files\bin\qcustomplot</Filter>
+    <ClCompile Include="src\work-task4.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\comfution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\fft1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lincesecreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mathfution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="src\pentooldatatype.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -144,62 +144,70 @@
     <QtMoc Include="src\pentoolwork.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="src\comfution.h">
+    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\mathfution.h">
+    </QtMoc>
+    <QtMoc Include="src\qmlplot.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\lincesecreator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="bin\mat\fft1.h">
-      <Filter>Header Files\bin\mat</Filter>
-    </ClInclude>
-    <ClInclude Include="bin\mat\rt_nonfinite.h">
-      <Filter>Header Files\bin\mat</Filter>
-    </ClInclude>
+    </QtMoc>
     <ClInclude Include="bin\mat\rtGetInf.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\rtGetNaN.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\mat\rt_nonfinite.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\rtwtypes.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\test.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\test_emxAPI.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\test_emxutil.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\test_initialize.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\test_terminate.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\test_types.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bin\mat\tmwtypes.h">
-      <Filter>Header Files\bin\mat</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
+    <QtMoc Include="src\websockettransport.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
+    
+    
+    
+    
+    
+    
     <CustomBuild Include="debug\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
     <CustomBuild Include="release\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
   </ItemGroup>
   <ItemGroup>
     <None Include="themes\Dark\.DS_Store">
@@ -280,10 +288,19 @@
     <None Include="qml\view\data\sateView\NewSateDia.qml">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="qml\view\play\NoProjectErrorIndex.qml">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="qml\common\PenComboBox.qml">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="doc\PenTool.html">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="qml\view\data\projectView\ProjectTable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="doc\README.html">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="qml\view\data\sateView\SateTable.qml">
@@ -505,40 +522,17 @@
     <None Include="qtquickcontrols2.conf">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="map\qwebchannel.js">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="res\png\sate(1).png">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="res\png\sate.png">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="qml\view\play\NoProjectErrorIndex.qml">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="bin\Toou2D\plugin.qmltypes">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="map\qwebchannel.js">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="doc\PenTool.html">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="doc\README.html">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="myapp-T2d.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="src\qmlplot.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="src\websockettransport.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="bin\qcustomplot\qcustomplot.h">
-      <Filter>Header Files\bin\qcustomplot</Filter>
-    </QtMoc>
+    <ResourceCompile Include="logo.rc" />
   </ItemGroup>
 </Project>
